@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!--==================== SITE META ====================-->
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <title>Calculator</title>
+
+    <!--==================== FONTS ====================-->
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&amp;family=Rajdhani:wght@300;500&amp;family=Rubik:wght@300;400;500;600;700&amp;family=Spartan:wght@100;400&amp;display=swap" rel="stylesheet">
+
+    <!--==================== STYLES CSS ====================-->
+    <link rel="stylesheet" href="style.css" />
+
+</head>
+<body>
+    <div class="container--calculator">
+        <div class="btn__title">
+            <div class="btn--ctrls">
+                <ul class="ctrls">
+                    <li class="close"><a href="#"></a></li>
+                    <li class="min"><a href="#"></a></li>
+                    <li class="max"><a href="#"></a></li>
+                </ul>
+            </div>
+            <span class="title">Switch Calculator</span>
+        </div>
+        <form class="calculator" name="calc">
+            <input type="text" name="val" readonly="" class="txt" />
+            <input type="button" value='c' readonly class="btn clear" onclick="document.calc.val.value = ''">
+            <input type="button" value='*' class="btn mult" onclick="document.calc.val.value += '*'">
+            <input type="button" value='/' class="btn divi" onclick="document.calc.val.value += '/'">
+            <input type="button" value='7' class="btn" onclick="document.calc.val.value += '7'">
+            <input type="button" value='8' class="btn" onclick="document.calc.val.value += '8'">
+            <input type="button" value='9' class="btn" onclick="document.calc.val.value += '9'">
+            <input type="button" value='-' class="btn rest" onclick="document.calc.val.value += '-'">
+            <input type="button" value='4' class="btn" onclick="document.calc.val.value += '4'">
+            <input type="button" value='5' class="btn" onclick="document.calc.val.value += '5'">
+            <input type="button" value='6' class="btn" onclick="document.calc.val.value += '6'">
+            <input type="button" value='+' class="btn plus" onclick="document.calc.val.value += '+'">
+            <input type="button" value='3' class="btn" onclick="document.calc.val.value += '3'">
+            <input type="button" value='2' class="btn" onclick="document.calc.val.value += '2'">
+            <input type="button" value='1' class="btn" onclick="document.calc.val.value += '1'">
+            <input type="button" value='0' class="btn" onclick="document.calc.val.value += '0'">
+            <input type="button" value='00' class="btn" onclick="document.calc.val.value += '00'">
+            <input type="button" value='.' class="btn punt" onclick="document.calc.val.value += '.'">
+            <input type="button" value='=' class="btn value" onclick="document.calc.val.value = eval(calc.val.value)">
+        </form>
+        <div>
+            <input type="checkbox" id="toggle" name="toggle" value="is_on" style="display:none;">
+            <label for="toggle" class="btn--dark">
+                <span class="border1"></span>
+                <span class="border2"></span>
+                <span class="border3"></span>
+                <span class="handle">
+                    <span class="handle-off"></span>
+                    <span class="handle-on"></span>
+                </span>
+            </label>
+        </div>
+    </div>
+</div>
+
+    <!--==================== SCRIPT MAIN ====================-->
+    <script src="main.js"></script>
+
+</body>
+
+</html>
