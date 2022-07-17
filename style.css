@@ -444,6 +444,11 @@ input:checked+.btn--dark .handle-on {
   grid-gap: 55px;
   padding: 15px;
 }
+.grid-toggle{
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  grid-gap: 10px;
+}
 
 @media (max-width: 992px) {
   .calculator {
@@ -469,3 +474,40 @@ input:checked+.btn--dark .handle-on {
     font-size: 13px;
   }
 }
+
+@media (max-width: 992px) {
+  .border1 {
+    width: 5em;
+    height: 4em;
+  }
+}
+
+@media (max-width: 992px) {
+  .border2 {
+    width: 5.5em;
+    height: 1.5em;
+  }
+}
+
+@media (max-width: 992px) {
+  .border3 {
+    width: 12.5em;
+    height: 4.5em;
+  }
+}
+
+@media (max-width: 992px) {
+  .handle {
+    width: 5.5em;
+    height: 5.5em;
+  }
+}
+
+
+@media (max-width: 992px) {
+  .btn--dark {
+    width: 18em;
+    height: 8em;
+  }
+}
+
