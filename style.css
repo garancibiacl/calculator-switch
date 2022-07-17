@@ -458,6 +458,7 @@ input:checked+.btn--dark .handle-on {
 @media (max-width: 992px) {
   .container--calculator {
     width: 90%;
+    height: 550px;
   }
 }
 
