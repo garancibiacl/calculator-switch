@@ -453,7 +453,7 @@ input:checked+.btn--dark .handle-on {
 @media (max-width: 992px) {
   .calculator {
     grid-gap: 17px;
-    height: 75vh;
+    height: 80vh;
     grid-template-columns: calc(20% - 0%) 20% 20% 20%;
     padding: 74px 13px 21px;
     justify-content: center;
@@ -463,6 +463,7 @@ input:checked+.btn--dark .handle-on {
 @media (max-width: 992px) {
   .container--calculator {
     width: 89vw;
+    margin-top: 60px;
   }
 }
 
@@ -510,4 +511,12 @@ input:checked+.btn--dark .handle-on {
       height: 3em;
   }
 }
+
+@media (max-width: 992px) {
+  .grid-toggle {
+ position: fixed;
+ top: 0px;
+  }
+}
+
 
