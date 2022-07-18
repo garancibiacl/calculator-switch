@@ -472,7 +472,6 @@ input:checked+.btn--dark .handle-on {
 @media (max-width: 992px) {
   .btn__title {
     padding-top: 20px;
-    grid-gap: 50px;
     font-size: 13px;
   }
 }
