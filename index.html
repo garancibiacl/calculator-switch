@@ -67,6 +67,23 @@
 
     <!--==================== SCRIPT MAIN ====================-->
     <script src="main.js"></script>
+    <script>
+        $(function(){
+
+
+// minimize (looks kinda cool?)
+  $(".min").click(function(){
+      $("container--calculator").stop().animate({
+          width: "0px", height: "0px", marginLeft: "700px", marginTop: "1000px"
+      }, 500);
+      setTimeout(function(){$(".container--calculator").css("display", "none")}, 600);
+  });
+//close window. refresh to get back
+  $(".close").click(function(){
+      $(".container--calculator").css("display", "none");
+  })
+})
+    </script>
 
 </body>
 

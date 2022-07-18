@@ -267,7 +267,7 @@ span {
 }
 
 .title {
-  font-size: 1.6em;
+  font-size: 25px;
   color: var(--color-secundary)
 }
 
@@ -441,8 +441,9 @@ input:checked+.btn--dark .handle-on {
   position: absolute;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  grid-gap: 55px;
-  padding: 15px;
+  grid-gap: 80px;
+  /* padding: 42px; */
+  padding-top: 20px;
 }
 .grid-toggle{
   display: grid;
@@ -514,9 +515,15 @@ input:checked+.btn--dark .handle-on {
 
 @media (max-width: 992px) {
   .grid-toggle {
- position: fixed;
- top: 0px;
+    position: fixed;
+    top: -4px;
+    right: 54px;
   }
 }
 
+@media (max-width: 992px) {
+  .title {
+    font-size: 20px;
+  }
+}
 
