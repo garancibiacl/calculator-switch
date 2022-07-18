@@ -516,8 +516,8 @@ input:checked+.btn--dark .handle-on {
 @media (max-width: 992px) {
   .grid-toggle {
     position: fixed;
-    top: -4px;
-    right: 54px;
+    right: 40px;
+    bottom: 30px;
   }
 }
 
