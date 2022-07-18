@@ -453,7 +453,7 @@ input:checked+.btn--dark .handle-on {
 @media (max-width: 992px) {
   .calculator {
     grid-gap: 17px;
-    height: 62vh;
+    height: 75vh;
     grid-template-columns: calc(20% - 0%) 20% 20% 20%;
     padding: 74px 13px 21px;
     justify-content: center;
@@ -462,7 +462,7 @@ input:checked+.btn--dark .handle-on {
 
 @media (max-width: 992px) {
   .container--calculator {
-    width: 90%;
+    width: 89vw;
   }
 }
 
@@ -477,37 +477,37 @@ input:checked+.btn--dark .handle-on {
 
 @media (max-width: 992px) {
   .border1 {
-    width: 5em;
-    height: 4em;
+      width: 1em;
+      height: 1em;
   }
 }
 
 @media (max-width: 992px) {
   .border2 {
-    width: 5.5em;
-    height: 1.5em;
+      width: 2.5em;
+      height: 0.5em;
   }
 }
 
 @media (max-width: 992px) {
   .border3 {
-    width: 12.5em;
-    height: 4.5em;
+      width: 4.5em;
+      height: 2.5em;
   }
 }
 
 @media (max-width: 992px) {
   .handle {
-    width: 5.5em;
-    height: 5.5em;
+      width: 2.5em;
+      height: 2.5em;
   }
 }
 
 
 @media (max-width: 992px) {
   .btn--dark {
-    width: 18em;
-    height: 8em;
+      width: 6em;
+      height: 3em;
   }
 }
 
