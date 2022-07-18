@@ -93,12 +93,12 @@ span {
   text-align: center;
   display: grid;
   grid-gap: 21px;
-  grid-template-columns: repeat(4, auto);
-  width: 100%;
-  height: 700px;
+  /* grid-template-columns: repeat(4, auto); */
+  width: 395px;
+  height: 513px;
   border-radius: 3%;
   margin-bottom: 12px;
-  /* grid-template-columns:  calc(25% - 10%) 25% 25% 25%; */
+  grid-template-columns: 20% 20% 20% 20%;
 }
 
 .txt {
@@ -267,7 +267,7 @@ span {
 }
 
 .title {
-  font-size: 25px;
+  font-size: 20px;
   color: var(--color-secundary)
 }
 
@@ -441,7 +441,7 @@ input:checked+.btn--dark .handle-on {
   position: absolute;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  grid-gap: 80px;
+  /* grid-gap: 80px; */
   /* padding: 42px; */
   padding-top: 20px;
 }
@@ -463,7 +463,7 @@ input:checked+.btn--dark .handle-on {
 
 @media (max-width: 992px) {
   .container--calculator {
-    width: 89vw;
+    max-width:100%;
     margin-top: 60px;
   }
 }
