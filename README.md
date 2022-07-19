@@ -1,9 +1,10 @@
-&#128425; Switch Calculator
+&#128425; 🖩 Switch Calculator
 
 # Tecnologías:
 - Html5
 - Css, Grid, flex-box, transition, Medias Query
 - JavaScript
+
 Objetivos:
 - Replicar una calculadora funcional ocupando como  Neumorphism ui Design ocuando CSS puro
 - Ocupar funciones JavasScript para la manipulacion del DOM
