@@ -1,4 +1,4 @@
-&#128425; 🖩 Switch Calculator
+&#128425;Switch Calculator
 
 # Tecnologías:
 - Html5
@@ -6,7 +6,7 @@
 - JavaScript
 
 Objetivos:
-- Replicar una calculadora funcional ocupando como  Neumorphism ui Design ocuando CSS puro
+- Replicar una calculadora funcional ocupando como  Neumorphism UI Design ocupando CSS puro
 - Ocupar funciones JavasScript para la manipulacion del DOM
 - Switch para el theme Dark & Light
 - Responsive
