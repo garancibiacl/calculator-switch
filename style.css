@@ -455,7 +455,7 @@ input:checked+.btn--dark .handle-on {
   .calculator {
     grid-gap: 17px;
     height: 80vh;
-    grid-template-columns: calc(20% - 0%) 20% 20% 20%;
+    grid-template-columns: calc(20% - 0%) 20% 20% 20%; 
     padding: 74px 13px 21px;
     justify-content: center;
   }

@@ -15,8 +15,6 @@
 
 
       $(function(){
-
-
         // minimize (looks kinda cool?)
           $(".min").click(function(){
               $("calculator").stop().animate({
