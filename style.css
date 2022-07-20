@@ -454,18 +454,18 @@ input:checked+.btn--dark .handle-on {
 @media (max-width: 992px) {
   .calculator {
     grid-gap: 17px;
-    height: 60vh;
+    height: 80vh;
     grid-template-columns: calc(20% - 0%) 20% 20% 20%; 
     padding: 74px 13px 21px;
     justify-content: center;
-    max-width: 370px;
+    max-width: 350px;
   }
 }
 
 @media (max-width: 992px) {
   .container--calculator {
     max-width:100%;
-    margin-top: 60px;
+    margin-top: 3px;
   }
 }
 
